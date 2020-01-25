@@ -12,7 +12,7 @@ import com.shopizer.tools.language.process.LanguageBuilder;
  * @author carlsamson
  *
  */
-public class LanguagePackApplication {
+public class LanguagePackBuilder {
 	
 	public static final String targetISOLanguage = "es";
 	public static final String shopizerRootPath = "/Users/drive/Documents/dev/workspaces/master/shopizer";
@@ -27,7 +27,7 @@ public class LanguagePackApplication {
 			System.out.println("This software requires 2 arguments (1) absolute root path of shopizer (example /temp/app/shopizer) (2) target language iso code (example es)");
 		}
 		
-		LanguagePackApplication langPackApp = new LanguagePackApplication();
+		LanguagePackBuilder langPackApp = new LanguagePackBuilder();
 		
 		langPackApp.translateFromExisting(args[1], args[0]);
 	    langPackApp.printInstructions(args[1], args[0]);
