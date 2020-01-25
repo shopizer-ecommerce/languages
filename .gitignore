@@ -1,1 +1,6 @@
-./target
+#ignored files
+
+*/target/
+.project
+.class
+.jar
