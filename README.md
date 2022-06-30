@@ -28,7 +28,7 @@ mvnw clean install
 
   - Execute generate language
     - Requires shopizer directory absolute path (1)
-    - Requires target language 2 letter iso ced (example es for Spanish) (2)
+    - Requires target language 2 letter iso code (example es for Spanish) (2)
     - Requires AWS access key (3)
     - Requires AWS secret access key (4)
     - parameters 1 and 2 to be sent as execution parameters and parameters 3 and 4 to be sent as environment variables

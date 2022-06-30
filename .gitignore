@@ -4,3 +4,4 @@
 .project
 .class
 .jar
+/target/
